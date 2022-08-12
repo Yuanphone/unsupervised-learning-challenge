@@ -35,3 +35,18 @@ If possible, determine where the elbow of the plot is, and at which value of k i
 
 ### Part 4: Make a Recommendation
 Based on your findings, write up a brief (one or two sentences) recommendation for your supervisor in your Jupyter Notebook. Can the patients be clustered? If so, into how many clusters?
+### Make a Recommendation
+
+Based on the preparation of the data, performing dimensionality reduction with PCA and t-SNE and performing a cluster analysis with K-means, I found:
+
+1.From the plot of elbow curve, the best value of k seems to be 3.
+
+2.From the PCA model will preserve 91.9% of the explained variance in dimensinality reduction.
+
+3. From the scatter plot of the t-SNE output, there are no distinct cluster. The t-SNE may be not helpful in finding clusters.
+
+4. From the cluster analysis with K-means, some clustering patterns show up, but the dataset seems to be too small to do further preditions.
+
+My recommendation:
+
+The dataset may be too small to do further splitting and training of data and to make accurate prediction. In the future, to get a bigger dataset to perform the above models and make more accurate predictions.
